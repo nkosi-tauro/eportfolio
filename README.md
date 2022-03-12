@@ -15,9 +15,6 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/nkosi-tauro/eportfolio?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/nkosi-tauro/eportfolio?color=56BEB8">
-
-
 </p>
 
 
@@ -39,7 +36,7 @@ It will contain all my projects, including some of my research, and will be used
 
 ## :eyes: View ##
 
-[Nkosilathi Tauro ePortfolio](https://nkosi-tauro.netlify.app/)
+[Nkosilathi Tauro ePortfolio](https://nkosi-tauro.github.io/eportfolio/)
 
 ## :memo: License ##
 
