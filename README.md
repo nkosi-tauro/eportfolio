@@ -1,12 +1,4 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Eportfolio" />
-
-  &#xa0;
-
-  <!-- <a href="https://eportfolio.netlify.app">Demo</a> -->
-</div>
-
-<h1 align="center">Eportfolio</h1>
+<h1 align="center">University of Essex - ePortfolio</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/nkosi-tauro/eportfolio?color=56BEB8">
