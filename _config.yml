@@ -6,3 +6,8 @@ url: https://nkosi-tauro.github.io/essex-eportfolio
 
 aux_links:
   Nkosi on Github: https://github.com/nkosi-tauro/
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "10.1.0"
