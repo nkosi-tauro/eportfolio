@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: "Assignment 1: System Design"
 parent: "Module: Object Oriented Programming"
+nav_order: 1
 ---
 
 <h2>Assignment Topic: A Design Proposal of Software to Support Operation of a Driverless Car</h2>    
