@@ -13,9 +13,9 @@ nav_order: 14
 
 ---
 ## [Assignment](#assignment)
-This unit also inlcuded the second module assignment. We were tasked to implement a driverless car based on the [system design proposal](/eportfolio/module_oop/system_design/) document.  
+This unit also inlcuded the second module assignment. We were tasked to implement a driverless car based on the [system design proposal](/eportfolio/module_oop/assignment1.html) document.  
 
-View the assignment and its reflection [here](/eportfolio/module_oop/system_implementation/)
+View the assignment and its reflection [here](/eportfolio/module_oop/assignment2.html)
 
 ---
 
