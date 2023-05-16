@@ -127,7 +127,7 @@ Silvera, O., S.(2022) A Beginner’s Guide to Unit Tests in Python. Available fr
 ## Reflection
 In this unit we tackled unit testing, using linters(pylint) and code documentation before releasing to stakeholders. 
 
-In unit 7 I had made reference to how linters can sometimes be quite aggressive [Reflection](../unit7/#reflection)(paragraph 3) in how they flag up errors and code styling. I found this to be most true when I was working on [Activity 2](#activity-2). I prefer `1 Tab` indentation as I'm used to that style whereas pylint requires `2 Tab` indentation and I found it quite annoying to have to change my code to suit pylint. 
+In unit 7 I had made reference to how linters can sometimes be quite aggressive [Reflection](./unit7#reflection)(paragraph 3) in how they flag up errors and code styling. I found this to be most true when I was working on [Activity 2](#activity-2). I prefer `1 Tab` indentation as I'm used to that style whereas pylint requires `2 Tab` indentation and I found it quite annoying to have to change my code to suit pylint. 
 
 Reading more into unit testing and its benefits made me do more research and I discovered a software development methodology called `Test Driven Development (TDD)`. TDD is software development approach in which test cases are developed to specify and validate what the code will do (Hamilton, 2023). Developing tests before writing code at first seems like a weird idea but it actually makes sense. It allows you to think about the code you are writing, the different scenarios that your code will be used in and how it will handle those scenarios.
 

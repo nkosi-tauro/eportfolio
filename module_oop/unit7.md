@@ -16,7 +16,7 @@ nav_order: 10
 ## [Assignment](#assignment)
 This unit also inlcuded an assignment. We were tasked to present a system design proposal for a driverless car.  
 
-View the assignment and its reflection [here](/eportfolio/module_oop/system_design/)
+View the assignment and its reflection [here](/eportfolio/module_oop/assignment1.html)
 
 ---
 ## [Activities](#activities)
