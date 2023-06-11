@@ -14,7 +14,7 @@ One of the classic programming problems that is often solved by recursion is the
 - What is the (theoretical) maximum number of disks that your program can move without generating an error?
 - What limits the number of iterations? What is the implication for application and system security?
 
-#### Solution
+### Solution
 
 
 
@@ -33,7 +33,7 @@ W1A 1HQ
 EC1A 1BB  
 How do you ensure your solution is not subject to an evil regex attack?
 
-#### Solution
+### Solution
 
 
 
