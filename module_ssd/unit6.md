@@ -36,6 +36,7 @@ else:
 return n*factorial(n-1)
 ```
 
+### Answer
 Trying to run the above code results in an `IndentationError`.
 ```
 """ Return factorial of n """
@@ -93,7 +94,7 @@ if choice == "encode":
 
 print encoded
 ```
-
+### Answer
 List of Errors Returned:  
 ```
 ************* Module test
@@ -178,6 +179,7 @@ Review the errors returned. In what way does this error message differ from the 
 
 Run flake8 on metricTest.py. Can you correct each of the errors returned by flake8? What amendments have you made to the code?  
 
+### Answer
 Returned errors on `pylintTest.py`
 ```
 test.py:23:2: E999 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
@@ -203,6 +205,7 @@ metricTest.py
 
 The file had a number of issues, running this in flake8 produced quite a number of errors ranging from invalid syntax, invalid characters, indentation issues and so forth.  
 
+### Answer
 To fix the code, I started by removing the flagged invalid characters, fixed the syntax issues, used the Python code formatter to fix the indentation, added some missing colons, added missing 'super().init(x, y)' call in the constructor of class D to properly initialize the base class and removed all unnecessary empty lines.    
 
 Fixed Code:
@@ -275,7 +278,7 @@ on sums.py.
 
 What is the result?
 
-Result:
+### Result:
 ```
 1:0: 'test_sum' 1
 If 4 2
@@ -287,7 +290,7 @@ on sums2.py.
 
 What is the result?
 
-Result:
+### Result:
 ```
 2:0: 'test_sum' 1
 5:0: 'test_sum_tuple' 1
@@ -296,6 +299,7 @@ If 8 2
 
 What are the contributors to the cyclomatic complexity in each piece of code?
 
+### Answers:
 Sums.py
 >There is only one function here and no decision points, so only the function.
 
