@@ -2,10 +2,11 @@
 layout: default
 title: "Collaborative Discussion 1"
 parent: "Module: Secure Software Development"
-nav_order: 10
+nav_order: 15
 ---
 
-### Discussion Topic: Select one of the coding weaknesses which have been identified by OWASP and create a flowchart of the steps which may have led to the weakness occurring.    
+### Discussion Topic: 
+Select one of the coding weaknesses which have been identified by OWASP and create a flowchart of the steps which may have led to the weakness occurring.    
 <br>
 
 **Initial Post**  
