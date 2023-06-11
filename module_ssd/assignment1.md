@@ -43,7 +43,7 @@ Your full brief is to:
 1. Create a comprehensive design proposal report, describing how you will meet the requirements, and the design and implementation of the solution.
 2. You should create a working prototype of your microservice design via a command line (CL) application.
 
-You can view the design proposal here: *Coming Soon*  
+You can view the design proposal here: [Design Proposal](https://github.com/alesteka/SSD/blob/main/designProposal/Dutch%20Police%20Forensics%20Domain.pdf)   
 You can view the Prototype here: [Prototype](https://github.com/alesteka/SSD/tree/main/appPrototype)
 
 
