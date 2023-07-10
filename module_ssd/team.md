@@ -5,7 +5,8 @@ parent: "Module: Secure Software Development"
 nav_order: 17
 ---
 
-## Team Minutes // University of Essex
+## Team Minutes // Secure Software Development 2023
+Minutes Captured by: Nkosilathi Tauro, Date Format (DD/MM)
 ### Members: 
 - <a href="https://github.com/alesteka" target="_blank">Ales Tekavcic</a>
 - <a href="https://github.com/muwalofra" target="_blank">Francis Muwalo</a>
@@ -69,4 +70,61 @@ API Gateway: Routes requests to appropriate services.
 - We reviewed and compiled the final document.
 - Ales completed the prototype and pushed the files to GitHub
 - We Submitted the Final Design Proposal and Prototype on Saturday (10/06)
+
+## Team Meeting 8 (20/06)
+- We met up to discuss the best approach to developing the Project.
+- We broke down the application into different components and assigned them to each other.
+- Ales: Working on CyberDetective view and the Login Service
+- Abdul: Working on the General Public View
+- Francis: Working on the Reporting Form
+- Nkosi: Working on the Admin View, Deployments, and User Services
+- I set up the initial Repository on GitHub for the team to start working from.
+- We also drafted up some Wireframes to assist the team in creating their views.
+
+## Team Meeting (Ales <> Nkosi 1-on-1) (21/06)
+- Met up with Ales to have a Learning session on what he was working on
+
+
+## Team Meeting 9 (24/06)
+- We had a Show and Tell Session where each team member presented what they worked on, progress check
+- We had discussions about possible improvements but we decided to defer them to the end and focus on the core requirements for now
+- Abdul was not available as he had an emergency to deal with - We hope everything went well. 
+
+
+## Team Meeting 10 & 11 (27/06) & (01/07)
+- Significant Progress was made by Ales and I (Nkosi) on the Features we were working on.
+- The Core requirements are pretty much complete, I stepped in to Complete the General Public View and the initial reporting form.
+- Nkosi Offered to assist team members in getting their development environments setup so that they could contribute on their assigned features.
+- Nkosi  implemented the Initial tests for the application
+
+
+## Team Meeting (Francis <> Nkosi 1-on-1) (04/07)
+- Met up with Francis to discuss his assigned feature (Reporting Form)
+- I assisted him with setting up his dev environment and getting Django and source control (Git) up and running.
+- We Integrated what he had been working on (Reporting Form model) and merged it into the dev branch
+
+
+
+## Team Meeting 12 (05/07)
+- We had a discussion on what are the remaining requirements we needed to implement.
+- Unit Testing, Multithreaded/Concurrent requirement and adding functionality to the Logs were the remaining features.
+- We divided the remaining tasks.
+- Ales will be creating unit tests for the user_service
+- Francis & Abdul will be creating unit tests for the reporting_service
+- Nkosi will work on the Multithreaded/Concurrent requirement and add functionality to the Logs
+
+## Team Meeting 13 (10/07)
+- Nkosi Implemented an Email threading system and caching to meet the Multithreaded/Concurrent requirement.
+- I also then implemented Rate Limiting as additional functionality for the Logs.
+- I ran the project through Pylint and created the Pylint reports.
+- I created additional tests for the reporting_service
+- Ales created tests the user_service.
+- The team is also preparing for the upcoming Presentation on 13/07, these were the additional meeting points:
+    - The project, did we meet all the requirements?
+    - Have a look at the submission checklist. 
+    - The 2 Powerpoint Slides That we can create for the presentation. 
+    - The Upcoming Presentation (How will we present it? Will we divide the Presentation into 4 equal parts so everyone can have a chance to contribute?)
+    - Functional Testing: We can each live test every component of the application in the meeting, to make sure it all works.
+
+
 	
