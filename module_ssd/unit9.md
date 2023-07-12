@@ -8,7 +8,7 @@ nav_order: 11
 ## Developing an API for a Distributed Environment
 
 I tried out one of Pythons libraries called FastAPI to create a simple todolist API with basic CRUD functionality. 
-Although for the Summative assesment we will be utilising Django, I wanted to play around with something new.   
+Although for the Summative assessment we will be utilizing Django, I wanted to play around with something new.   
 View Project here: [test-fastapi](https://github.com/nkosi-tauro/test-fastapi)
 
 ### Snippets  

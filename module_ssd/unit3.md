@@ -19,10 +19,10 @@ You should read Chapter 2,6,7,8 of the course text (Pillai, 2017) and Cifuentes 
 1. Quite a number of factors determine whether a programming language is secure or not. 
   - Language Design: The design of the language, including features such as memory management, type safety, and error handling mechanisms, can significantly impact its security.
   - Security Features: Built-in security features, such as sandboxing, access control mechanisms, encryption libraries, and secure standard libraries, contribute to a language's security.
-  - Developer Practices: The security of a programming language also depends on how developers utilise the language and follow secure coding practices. Even the most secure language can be misused if developers do not adhere to proper security practices, such as input validation, secure data handling, and vulnerability patching.
+  - Developer Practices: The security of a programming language also depends on how developers utilize the language and follow secure coding practices. Even the most secure language can be misused if developers do not adhere to proper security practices, such as input validation, secure data handling, and vulnerability patching.
 
 2. Python can be classed as a secure language. The python programming language contains various feature sets that secure it. 
-  - Memory Management: Python utilises automatic memory management (garbage collection), reducing the risk of common memory-related vulnerabilities like buffer overflows and memory leaks.
+  - Memory Management: Python utilizes automatic memory management (garbage collection), reducing the risk of common memory-related vulnerabilities like buffer overflows and memory leaks.
   - Standard Libraries: Python offers a rich set of standard libraries, including security-related modules such as cryptography and SSL/TLS support, which can be leveraged to implement secure solutions.
   - Community Support: Python has a large and active community that actively identifies and addresses security vulnerabilities in the language itself and its associated libraries. Regular security patches and updates help maintain the language's security.
 
@@ -31,7 +31,7 @@ You should read Chapter 2,6,7,8 of the course text (Pillai, 2017) and Cifuentes 
   - Python is an interpreted language, which means it typically has slower execution speed compared to lower-level languages like C.
   - Code Size and Footprint: Operating systems often require tight control over memory usage and have strict size limitations. C allows for more precise memory management and produces smaller executables, making it more suitable for operating system development.
 
-In Summary Operating systems require a low-level language to optimise for performance, size and compatibility.  This makes C a preferred language for OS development. 
+In Summary Operating systems require a low-level language to optimize for performance, size and compatibility.  This makes C a preferred language for OS development. 
 
 ### Exploring Python tools and features
 

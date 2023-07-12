@@ -16,7 +16,7 @@ Minutes Captured by: Nkosilathi Tauro, Date Format (DD/MM)
 
 ## Team Meeting 1 (06/05)
 
-The Team met for the first time and we drafted and completed the Team Contract
+The Team met for the first time, and we drafted and completed the Team Contract
 - We decided to brainstorm which domain to pick and discuss that in our next team meeting
 - We have a rotational Team Leader (This week it was Ales)
 - We also lost one of our Team members due to a team reshuffle.  
@@ -34,9 +34,9 @@ The Team met for the first time and we drafted and completed the Team Contract
 The team will each design a version of the below System Architecture. We will then meet up next week to choose the best version and proceed with that. 
 
 (Proposed, feel free to change this)
-We propose a microservices architecture, with the following services:
+We propose a microservices' architecture, with the following services:
 
-User Service: Handles authentication, authorisation, user profiles, and roles.  
+User Service: Handles authentication, authorization, user profiles, and roles.  
 Data Service: Responsible for storing, retrieving, updating, and deleting data.  
 Encryption Service: Encrypts and decrypts data.  
 Event Monitoring Service: Monitors and logs system events.  
@@ -74,8 +74,8 @@ API Gateway: Routes requests to appropriate services.
 ## Team Meeting 8 (20/06)
 - We met up to discuss the best approach to developing the Project.
 - We broke down the application into different components and assigned them to each other.
-- Ales: Working on CyberDetective view and the Login Service
-- Abdul: Working on the General Public View
+- Ales: Working on Cyberdetective view and the Login Service
+- Abdul: Working on the Public View
 - Francis: Working on the Reporting Form
 - Nkosi: Working on the Admin View, Deployments, and User Services
 - I set up the initial Repository on GitHub for the team to start working from.
@@ -87,15 +87,15 @@ API Gateway: Routes requests to appropriate services.
 
 ## Team Meeting 9 (24/06)
 - We had a Show and Tell Session where each team member presented what they worked on, progress check
-- We had discussions about possible improvements but we decided to defer them to the end and focus on the core requirements for now
+- We had discussions about possible improvements, but we decided to defer them to the end and focus on the core requirements for now
 - Abdul was not available as he had an emergency to deal with - We hope everything went well. 
 
 
 ## Team Meeting 10 & 11 (27/06) & (01/07)
 - Significant Progress was made by Ales and I (Nkosi) on the Features we were working on.
-- The Core requirements are pretty much complete, I stepped in to Complete the General Public View and the initial reporting form.
+- The Core requirements are pretty much complete, I stepped in to Complete the Public View and the initial reporting form.
 - Nkosi Offered to assist team members in getting their development environments setup so that they could contribute on their assigned features.
-- Nkosi  implemented the Initial tests for the application
+- Nkosi implemented the Initial tests for the application
 
 
 ## Team Meeting (Francis <> Nkosi 1-on-1) (04/07)
@@ -122,8 +122,8 @@ API Gateway: Routes requests to appropriate services.
 - The team is also preparing for the upcoming Presentation on 13/07, these were the additional meeting points:
     - The project, did we meet all the requirements?
     - Have a look at the submission checklist. 
-    - The 2 Powerpoint Slides That we can create for the presentation. 
-    - The Upcoming Presentation (How will we present it? Will we divide the Presentation into 4 equal parts so everyone can have a chance to contribute?)
+    - The 2 PowerPoint Slides That we can create for the presentation. 
+    - The Upcoming Presentation (How will we present it? Will we divide the Presentation into 4 equal parts, so everyone can have a chance to contribute?)
     - Functional Testing: We can each live test every component of the application in the meeting, to make sure it all works.
 
 

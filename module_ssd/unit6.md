@@ -45,7 +45,7 @@ IndentationError: expected an indented block after function definition on line 1
 ```
 
 To fix it we can follow Pythons Indentation rules and indent the code according to the scope.  
-function -> conditional statements.  
+Function → conditional statements.  
 This will be the new code:
 ```py
 def factorial(n):
@@ -197,7 +197,7 @@ test.py:21:11: E111 indentation is not a multiple of 4
 test.py:23:15: W292 no newline at end of file
 ```
 
-The difference is less errors, this seems to be because flake8 only returns code breaking errors (indendation, code errors etc) whereas pylint by default will also return issues that are not conforming to Pep8 rules (or the defined rule set) such as variable names not properly defined (UPPER_CASE, snake_case etc) or missing docstrings from the document heading and so forth.
+The difference is fewer errors, this seems to be because flake8 only returns code breaking errors (indentation, code errors etc) whereas pylint by default will also return issues that are not conforming to Pep8 rules (or the defined rule set) such as variable names not properly defined (UPPER_CASE, snake_case etc) or missing doc strings from the document heading and so forth.
 
 **Problem 2**
 
