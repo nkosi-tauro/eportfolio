@@ -32,3 +32,49 @@ You should read Chapter 2,6,7,8 of the course text (Pillai, 2017) and Cifuentes 
   - Code Size and Footprint: Operating systems often require tight control over memory usage and have strict size limitations. C allows for more precise memory management and produces smaller executables, making it more suitable for operating system development.
 
 In Summary Operating systems require a low-level language to optimise for performance, size and compatibility.  This makes C a preferred language for OS development. 
+
+### Exploring Python tools and features
+
+#### Part I
+
+```c
+#include <stdio.h> 
+int main(int argc, char **argv)
+{
+char buf[8]; // buffer for eight characters
+printf("enter name:"); 
+gets(buf); // read from stdio (sensitive function!)
+printf("%s\n", buf); // print out data stored in buf
+return 0; // 0 as return value
+{
+```
+- When an input of over 8 characters has been entered an error occurs. 
+```bash
+*** stack smashing detected ***: <unknown> terminated
+Aborted (core dumped)
+```
+
+- In C when you assign a buffer to a variable, it can only store x amount of data as defined. In this case we have defined a variable of `char` type with a buffer of 8, so only 8 characters will be allowed. The error above then occurs when the input overflows the buffer (Temporary storage).
+
+
+#### Part II
+```py
+buffer=[None]*10
+for i in range (0,11):
+    buffer[i]=7
+print(buffer)
+```
+- The error that occurs when running the above is 
+```bash
+line 4, in <module>
+    buffer[i]=7
+IndexError: list assignment index out of range
+```
+
+Running Pylint yields the following results:
+```
+Final newline missingPylintC0304:missing-final-newline
+Missing module docstring (missing-module-docstring)
+```
+
+Pylint will not tell you how to fix code, especially if it is a logic issue in this case. Pylint is a style guide that helps developers write clean syntax that adheres to set rules
