@@ -8,6 +8,7 @@ nav_order: 3
 ## Table of Contents
 - [Module Reflection](#module-reflection)
 - [Professional Skills Matrix](#professional-skills-matrix)
+- [Action Plan](#action-plan)
 
 ## [Module Reflection](#module-reflection)
 **Reflection on the Secure Software Development Module**  
@@ -102,7 +103,10 @@ https://owasp.org/www-project-top-ten/
 
 
 ## [Professional Skills Matrix](#professional-skills-matrix)
+[Professional Skills Matrix](../assets/Professional%20Skills%20Matrix_.xlsx)
 
+
+## [Action Plan](#action-plan)
 <table>
    <!-- <thead>
       <tr>
