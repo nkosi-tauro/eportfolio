@@ -7,8 +7,22 @@ I reworked my ePortfolio based on previous feedback:
 - can be built and published on [GitHub Pages];
 - can be built and previewed locally, and published on other platforms.
 
+### Getting Started
 
-## Licensing and Attribution
+First, make sure you have [Jekyll] and [Bundler] installed. Then, clone this repository and install the dependencies:
+
+```
+$ git clone https://github.com/nkosi-tauro/eportfolio.git
+
+$ cd eportfolio
+
+$ bundle install
+
+$ bundle exec jekyll serve
+```
+The site will be available at `http://localhost:4000/` and will automatically update as you make changes to the source files.
+
+### Licensing and Attribution
 
 This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
 
