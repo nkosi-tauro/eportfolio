@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
 Hi there, my name is Nkosilathi Tauro, and I am a Developer hailing from Cape Town, RSA. Currently, I am pursuing my postgraduate degree at the University of Essex. I thrive on solving problems, and I often use technology as my tool of choice. I am committed to producing high-quality code, and I take pride in the work that I deliver.

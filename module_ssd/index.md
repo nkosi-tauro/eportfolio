@@ -2,6 +2,7 @@
 title: "Module: Secure Software Development"
 layout: default
 has_children: true
+nav_order: 3
 ---
 
 
