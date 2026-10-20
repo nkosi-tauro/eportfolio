@@ -1,6 +1,6 @@
 title: ePortfolio
 description: University of Essex ePortfolio
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 color_scheme: dark
 
@@ -13,3 +13,7 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "10.1.0"
+
+
+plugins:
+  - jekyll-remote-theme

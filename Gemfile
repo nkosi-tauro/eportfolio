@@ -19,3 +19,7 @@ gem "bigdecimal", "~> 4.1"
 gem "rake", "~> 13.0"
 
 gem "ostruct", "~> 0.6.3"
+
+gem "jekyll-remote-theme", "~> 0.6.2"
+
+gem "jekyll-include-cache", "~> 0.3.1"
