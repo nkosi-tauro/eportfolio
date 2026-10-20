@@ -1,8 +1,10 @@
-title: ePortfolio
+title: University of Essex ePortfolio
 description: University of Essex ePortfolio
 remote_theme: just-the-docs/just-the-docs
 
-color_scheme: dark
+color_scheme: light
+
+favicon_ico: "/assets/images/favicon.svg"
 
 url: https://nkosi-tauro.github.io/eportfolio
 
@@ -12,7 +14,7 @@ aux_links:
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "10.1.0"
+  version: "12.2.0"
 
 
 plugins:
