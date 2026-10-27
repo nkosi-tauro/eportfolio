@@ -1,12 +1,13 @@
 ---
 layout: page
-title: "Cloud Computing Fundamentals"
-parent: "Unit 3: Cloud Design Tools"
-nav_order: 2
+title: "Unit 3 Reflection:  Cloud Computing Fundamentals"
+parent: "Module: Cloud Operations and Management"
+nav_order: 5
 ---
 
 
-<i>Reflection on the differences and use cases of IaaS, PaaS, and SaaS, including examples from recent market trends.</i>
+### <i>Reflection on the differences and use cases of IaaS, PaaS, and SaaS, including examples from recent market trends.</i>  
+  
 
 IaaS, PaaS and SaaS are best understood as points on a spectrum of responsibility: the further along you move, the more the provider manages and the less control you retain.
 
