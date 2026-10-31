@@ -26,7 +26,7 @@ minikube start
 <i>Factors: I. Codebase, II. Dependencies</i>
 
 I converted my Bash script from Unit 4 into a Dockerfile, which is my 12-Factor app. It is a simple service that, given a word, uses the Free Dictionary API to return its definition.
-The codebase is tracked in a single Git repository: . It consists of two files in the same folder:
+The codebase is tracked in a single Git repository: [dictionary-engine](https://github.com/nkosi-tauro/eportfolio/tree/main/assets/code/dict-engine). It consists of two files in the same folder:
 
 ```
 dict-engine/
