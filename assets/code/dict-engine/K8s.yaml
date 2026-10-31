@@ -1,0 +1,45 @@
+# Config: the word to look up
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dict-engine-config
+data:
+  WORD: university
+---
+# Runs the container built in step 4
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dict-engine
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dict-engine
+  template:
+    metadata:
+      labels:
+        app: dict-engine
+    spec:
+      containers:
+        - name: dict-engine
+          image: dict-engine:0.1
+          imagePullPolicy: IfNotPresent   # use the image built inside minikube
+          envFrom:
+            - configMapRef:
+                name: dict-engine-config
+          ports:
+            - containerPort: 80
+---
+# Exposes the pods on a port of the minikube node
+apiVersion: v1
+kind: Service
+metadata:
+  name: dict-engine
+spec:
+  type: NodePort
+  selector:
+    app: dict-engine
+  ports:
+    - port: 80
+      targetPort: 80

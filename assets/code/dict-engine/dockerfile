@@ -1,0 +1,42 @@
+# syntax=docker/dockerfile:1
+FROM nginx:stable
+
+# Install curl and the DuckDB CLI at build time
+RUN apt-get update && apt-get install -y --no-install-recommends curl ca-certificates \
+ && rm -rf /var/lib/apt/lists/* \
+ && curl -fsSL -o /tmp/duckdb.tgz \
+      "https://github.com/duckdb/duckdb/releases/download/v2.0.0/duckdb-cli-linux-$(dpkg --print-architecture).tar.gz" \
+ && tar -xzf /tmp/duckdb.tgz -C /usr/local/bin duckdb \
+ && rm /tmp/duckdb.tgz
+
+# SQL that turns the API response into HTML
+COPY <<'EOF' /opt/render.sql
+CREATE MACRO esc(s) AS replace(replace(replace(s, '&', '&amp;'), '<', '&lt;'), '>', '&gt;');
+
+CREATE TABLE meanings AS
+SELECT word, unnest(meanings) AS m FROM read_json_auto('/tmp/word.json');
+
+SELECT '<!DOCTYPE html><html><head><meta charset="UTF-8"><title>' || esc(word) || '</title></head>'
+    || '<body style="font-family:sans-serif;max-width:800px;margin:40px auto">'
+    || '<h1>' || esc(word) || '</h1><table>'
+FROM meanings LIMIT 1;
+
+SELECT '<tr><td><b>' || esc(m.partOfSpeech) || '</b></td><td>' || esc(unnest(m.definitions).definition) || '</td></tr>'
+FROM meanings;
+
+SELECT '</table></body></html>';
+EOF
+
+# Startup script: scripts in /docker-entrypoint.d/ run before Nginx starts
+COPY --chmod=755 <<'EOF' /docker-entrypoint.d/40-render.sh
+#!/usr/bin/env bash
+set -euo pipefail
+
+: "${WORD:?WORD must be set}"
+API_URL="${DICTIONARY_API_URL:-https://api.dictionaryapi.dev/api/v2/entries/en}"
+
+echo "Looking up '$WORD'"
+curl -fsS --retry 3 -o /tmp/word.json "$API_URL/$WORD"
+duckdb -bail -noheader -list < /opt/render.sql > /usr/share/nginx/html/index.html
+echo "Rendered index.html"
+EOF
